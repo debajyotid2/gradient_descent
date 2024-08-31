@@ -18,7 +18,7 @@ jobs:
       - run: |
           echo "Running tests ..."
           cd c/build || exit 1
-          ctest -v || exit 2
+          ctest -V || exit 2
           echo "Successfully ran all tests."
 
           
