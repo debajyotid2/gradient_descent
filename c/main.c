@@ -21,7 +21,7 @@
 #include <stdio.h>
 #include <sys/time.h>
 #include <argp.h>
-#include "src/matrix.h"
+#include <matrix.h>
 #include "src/helpers.h"
 #include "src/losses.h"
 #include "src/sgd.h"

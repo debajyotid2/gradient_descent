@@ -20,7 +20,7 @@
 
 #include <math.h>
 #include <catch2/catch_test_macros.hpp>
-#include "../src/matrix.h"
+#include <matrix.h>
 #include "../src/stats.h"
 
 // Round a double to a given number of decimal places

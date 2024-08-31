@@ -19,9 +19,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#include <stdlib.h>
-#include <stdbool.h>
-#include "matrix.h"
 #include "helpers.h"
 
 // Make a dataset for solving a linear regression problem.

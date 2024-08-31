@@ -22,7 +22,8 @@
 #ifndef _STATS_H_
 #define _STATS_H_
 
-#include "matrix.h"
+#include <stdlib.h>
+#include <matrix.h>
 
 Matrix stats_mean(Matrix* mat, unsigned int dimension);
 double stats_mae(Matrix* y_true, Matrix* y_pred);
