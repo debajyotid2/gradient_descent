@@ -19,12 +19,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include "matrix.h"
-#include "losses.h"
-#include "stats.h"
 #include "sgd.h"
 
 // Iteration interval at which loss is recorded

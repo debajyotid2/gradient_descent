@@ -23,6 +23,8 @@
 #define _HELPERS_H_
 
 #include <stdlib.h>
+#include <stdbool.h>
+#include <matrix.h>
 
 void make_regression_dataset(Matrix* x, Matrix* y,
                              double bias, double noise_intensity,

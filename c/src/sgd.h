@@ -22,8 +22,12 @@
 #ifndef _SGD_H_
 #define _SGD_H_
 
+#include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
-#include "matrix.h"
+#include <matrix.h>
+#include "losses.h"
+#include "stats.h"
 
 // Loss functions and gradient functions
 typedef double (*loss_fn_type)(Matrix*, Matrix*);

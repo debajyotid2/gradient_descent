@@ -19,7 +19,7 @@
 */
 
 #include <catch2/catch_test_macros.hpp>
-#include "../src/matrix.h"
+#include <matrix.h>
 #include "../src/losses.h"
 
 TEST_CASE("L2 loss.", "[losses]")

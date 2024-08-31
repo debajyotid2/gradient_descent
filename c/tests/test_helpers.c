@@ -18,9 +18,9 @@
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-#include "../src/matrix.h"
 #include "../src/helpers.h"
 #include <catch2/catch_test_macros.hpp>
+#include <matrix.h>
 
 TEST_CASE("Helpers for linear regression.", "[helpers]")
 {

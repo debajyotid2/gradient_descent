@@ -8,6 +8,5 @@ else
 fi
 
 mkdir $BUILD_DIR && cd $BUILD_DIR # || exit 1
-# cmake .. || exit 1
-cmake ..
+cmake .. # || exit 1
 make -j "$NUM_THREADS"
