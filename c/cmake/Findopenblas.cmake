@@ -1,9 +1,9 @@
 
-find_path(OPENBLAS_INCLUDE_DIR NAMES cblas.h PATHS ${CMAKE_SOURCE_DIR}/third_party/OpenBLAS-0.3.28)
+find_path(OPENBLAS_INCLUDE_DIR NAMES cblas.h PATHS /opt/OpenBLAS/include/ ${PROJECT_ROOT_DIR}/c/external/matlibr/third_party/OpenBLAS-0.3.28)
 
 # Set CMake such that it only finds static libraries
 set(CMAKE_FIND_LIBRARY_SUFFIXES .a)
-find_library(OPENBLAS_LIBRARY NAMES openblas PATHS ${CMAKE_SOURCE_DIR}/third_party/OpenBLAS-0.3.28)
+find_library(OPENBLAS_LIBRARY NAMES openblas PATHS /opt/OpenBLAS/lib/ ${PROJECT_ROOT_DIR}/c/external/matlibr/third_party/OpenBLAS-0.3.28)
 # Reset CMake to find all libraries
 set(CMAKE_FIND_LIBRARY_SUFFIXES .so .a .lib .dll .dylib)
 

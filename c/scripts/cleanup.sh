@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DEP_DIR="../third_party"
+DEP_DIR="../external"
 BUILD_DIR="../build"
 
-rm -rf $DEP_DIR $BUILD_DIR 
+rm -rf "${DEP_DIR:?}/*" $BUILD_DIR 
