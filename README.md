@@ -231,7 +231,9 @@ INFO:root:MAE = 1.6373
 INFO:root:R2 = 1.0000
 ```
 Losses of both gradient descent (GD) and stochastic gradient descent (SGD) converge to similar values.
-<img src="https://github.com/user-attachments/assets/e25267b5-c896-4fe1-ab0a-ee1de321ba74" width=50% height=50%>
+
+<img src="https://github.com/user-attachments/assets/5af35f44-776d-4701-bb8b-d2e9d9fc91c6" width=50% height=50%>
+
 
 ## Theory
 
